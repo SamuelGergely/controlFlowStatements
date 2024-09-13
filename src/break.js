@@ -14,4 +14,4 @@ for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i]);
 }
 
-console.log("Nombre d'opération évitées :" + operationsAvoided);
+console.log("Nombres d'opération évitées :" + operationsAvoided);
