@@ -9,9 +9,11 @@ for (let i = 0; i < 10; i++) {
 
 for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] > 50) {
+
         operationsAvoided += (numbers.length - i - 1);
         console.log("Nombre superieur à 50")
         break;
+
     }
     console.log(numbers[i]);
 }
